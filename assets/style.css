@@ -1,0 +1,9 @@
+#startScreen {
+    position: absolute;
+    left: 37%; top: 20%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 15px;
+}
