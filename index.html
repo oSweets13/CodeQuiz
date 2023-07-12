@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="scriptsheet" href="assets/script.js">
     <title>Web APIs Code Quiz</title>
 </head>
 <body>
+    <header id="highscores">
+        <a href="#">View HighScores</a>
+        <p id="Timer">Time Left: <span id="timeLeft"></span></p>
+    </header>
+
     <main id="startScreen">
         <h1>Welcome to the Code Quiz</h1>
         <p>Try answering these code related questions within the designated time-frame.</p>
         <p>Good Luck!</p>
         <button id="beginQuizButton"><h2>Begin Quiz</h2></button>
     </main>
-    <aside id="highscores">
-        <a href="#">View HighScores</a>
-    </aside>
+
+    <div id="quizScreen">
+    <div id="quizContent" class="hidden">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+    </div>
+    <div id="feedback" class="feedback"></div>
+    </div>
+    <div id="finalScreen" class="hidden">
+        <h2>Finished! Well Done.</h2>
+        <p>Your final score is <span id="score"></span>.</p>
+        <p>Enter Initials: <input type="text" id="initials"/></p>
+        <button id="Submit">Submit</button>
+    </div>
+   
+    
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>

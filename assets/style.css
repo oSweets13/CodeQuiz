@@ -7,3 +7,31 @@
     border-radius: 10px;
     line-height: 15px;
 }
+
+.hidden {
+    display: none;
+}
+
+#quizContent {
+    position: absolute;
+    left: 37%; top: 20%;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 15px;
+}
+
+#feedback {
+    position: absolute;
+    left: 50%; top: 30%;
+}
+
+#finalScreen {
+    position: absolute;
+    left: 40%; top: 30%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 15px;
+}
