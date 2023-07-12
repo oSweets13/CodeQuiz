@@ -24,10 +24,10 @@ THEN I can save my initials and my score
 
 
 Starting Screen:
-![codequizbeginscreen](https://github.com/oSweets13/CodeQuiz-Week4/assets/129811051/e281c2dc-1f59-4aec-bee0-7731104171a4)
+(assets/imgs/codequizbeginscreen.png)
 
 Questions:
-![correctquestion](https://github.com/oSweets13/CodeQuiz-Week4/assets/129811051/6543cf77-8215-4234-8695-b76ce080c746)
+(assets/imgs/correctquestion.png)
 
 End Screen:
-![quizendscreen](https://github.com/oSweets13/CodeQuiz-Week4/assets/129811051/2225575e-b577-46fd-9b85-37e84744c8d6)
+(assets/imgs/quizendscreen.png)
